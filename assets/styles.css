@@ -124,7 +124,7 @@ ul li {
     padding: 0.5rem;
     border-color: #0000000e;
     border-radius: 100px;
-    width: 600px;
+    width: 287px;
     background-color: #ecf0f1;
 }
 
@@ -165,11 +165,11 @@ ul li {
 main {
     background-color: #ecf0f1;
     grid-area: content;
-    padding: 0.25rem;
+    padding: 1rem;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: min-content 1fr;
-    gap: 0.25rem;
+    gap: 1rem;
     grid-template-areas:
     'projects announcements' 
     'projects trending';
@@ -212,10 +212,12 @@ main {
 }
 
 .bottom-card {
+    margin-top: auto;
+    align-self: flex-end;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    height: 100px;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 .announcements {
@@ -335,6 +337,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     padding-right: 1rem;
+    max-width: 300px;
 }
 
 .acc img, .img img {
